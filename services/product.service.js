@@ -32,7 +32,7 @@ class ProductService {
     return {
       message: 'Producto creado.',
       data: body,
-      id: this.products.length
+      id: this.products.length - 1
     }
   }
 
